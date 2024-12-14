@@ -1,1 +1,12 @@
 ***Commands for Raspberry pi OS***
+After connecting all the components,
+now let’s install the DHT11 library into the OS (operating system). For that, open the terminal and run the following commands one by one. In this case, keep the internet connection enabled.
+1. sudo apt-get update
+2. sudo apt-get install build-essential python-dev python-openssl git
+3. sudo pip3 install adafruit-circuitpython-dht
+4. sudo apt-get install libgpiod2
+Now, you can use the DHT11 library.
+5. And then, enable I2C communication. 
+6. now, copy and paste the python script on the Thonny IDE.
+7. now, save this script and click the run button.
+OK, now you can get the values using this project. 
